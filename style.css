@@ -1,0 +1,197 @@
+body{
+    background-color: rgb(59, 59, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cuad_principal{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+.barra_navegacion{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.barra_navegacion a{
+    font-size: 14px;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.barra_navegacion a:hover{
+    color: blue;
+    background-color:white;
+}
+
+.cuad_informacion{
+    display:flex;
+    width:90%;
+    height:90%;
+    background-color:white;
+    font-weight: bold;
+    margin: 8px;;
+    justify-content:flex-start;
+    align-items:center;
+    border-radius: 15px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.componentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vacio{
+    width: 400px;
+    height: 400px;
+}
+
+.texto_t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo_info{
+    font-size: 30px;
+    color: blue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info{
+    content: 5px;
+    margin: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perif{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.cpu{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.ram{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.fuentes{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.madre{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.video{
+    content: 20px;
+    border: 20px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*    .videos{
+        display: flex;
+        background-color: blueviolet;
+        justify-content:space-between;
+        margin: 20px;
+        }
+*/
+h2{
+    color: blue;
+    font-size: 42px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.texto{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    display: flex;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width:600px){
+    body{
+        text-align: center;
+    }
+    .cuad_principal{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .barra_navegacion{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .barra_navegacion a{
+    padding: 10px 15px;
+    }
+    .cuad_informacion{
+        width: auto;
+        height: auto;
+    }
+    .texto{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
