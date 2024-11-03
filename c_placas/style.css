@@ -108,3 +108,67 @@ h5{
     flex-direction: column;
     border-radius: 5px;
 }
+
+@media (max-width:600px){
+    body{
+        text-align: center;
+    }
+    .cuad_principal{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .barra_navegacion{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .barra_navegacion a{
+    padding: 10px 15px;
+    }
+    .cuad_informacion{
+        width: auto;
+        height: auto;
+    }
+    .texto{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .cuadrado{
+        width: auto;
+        height: auto;
+    }
+    .Ejemplos{
+        flex-direction: column;
+    }
+    .graficasNvidia{
+        width: 40px;
+        color: rgb(33, 189, 12);
+        margin: auto;
+    }
+    .graficasAMD{
+        width: 40px;
+        color: red;
+        margin: auto;
+    }
+    .graficasINTEL{
+        width: 40px;
+        color: aquamarine;
+        margin: auto;
+    }
+    .imagen{
+        display: flex;
+        border: 2px blue solid;
+        margin: 8px;
+        flex-direction: column;
+        border-radius: 5px;
+        width: 340px;
+        height: 340px;
+    }
+    .video{
+        width: 200px;
+        height: 160px;
+    }
+}
