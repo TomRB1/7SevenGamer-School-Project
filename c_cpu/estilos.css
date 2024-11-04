@@ -90,6 +90,56 @@ h3{
     margin: 15px;
     width: 100%;
 }
+@media (max-width:600px){
+    body{
+        text-align: center;
+        justify-content: center;
+    }
+    .cuad_principal{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .barra_navegacion{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .barra_navegacion a{
+        padding: 10px 15px;
+    }
+    .cuad_informacion{
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+    .info{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 35px;
+    }
+    p{
+        font-size: auto;
+    }
+    .Ejemplo{
+        flex-direction: column;
+    }
+    .imagen{
+        display: flex;
+        border: 2px blue solid;
+        margin: 8px;
+        flex-direction: column;
+        border-radius: 5px;
+        width: auto;
+        height: auto;
+    }
+    .videos{
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+}
 .imagen{
     display: flex;
     border: 2px blue solid;
