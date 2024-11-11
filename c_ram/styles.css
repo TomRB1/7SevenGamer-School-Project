@@ -61,3 +61,34 @@ hr{
 p{
     font-size: 15px;
 }
+@media (max-width:600px){
+    body{
+        text-align: center;
+    }
+    .cuad_principal{
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+    .barra_navegacion{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .barra_navegacion a{
+    padding: 10px 15px;
+    }
+    .cuad_informacion{
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: 400px;
+    }
+    .texto{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
